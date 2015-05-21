@@ -1,4 +1,4 @@
-# portfolio script (written with codeigniter)
+# portfolio script
 a very minimal, personal portfolio site script coded with codeigniter. it uses a template library which very basic and open to developing, admin panel to change contents and  such as title, author,description,admin password things. you can suggest or ask anything you want.
 
 usage:
