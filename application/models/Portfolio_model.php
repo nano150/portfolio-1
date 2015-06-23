@@ -15,6 +15,16 @@
 
         public function getPage($id = null)
         {
+                    $query = $this->db->select('*')
+                        ->from('contents')
+                        ->where('title',$id)
+                        ->get()
+                        ->row_array();
+                    return $query;
+                
+                //removed if else below and added above more significant, dynamic code block.
+                //we need a lil change after this, on sql file. contents->title->project change to contents->title->projects (just -s plural on project word)
+                /*
                 if($id == 'about')
                 {
                     $query = $this->db->select('*')
@@ -24,6 +34,7 @@
                         ->row_array();
                     return $query;
                 }
+                
                 elseif($id == 'projects')
                 {
                     $query =$this->db->select('*')
@@ -42,6 +53,7 @@
                         ->row_array();
                     return $query;
                 }
+                */
 
         }
 
