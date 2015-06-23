@@ -52,3 +52,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'portfolio';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+//clean shorter routes
+$route["about"] = 'portfolio/index/about';
+$route["projects"] = 'portfolio/index/projects';
+$route["contact"] = 'portfolio/index/contact';
+
+//making conflict on other routes. hardcoded as above is suitable for now :)
+//$route["(.*)"] = 'portfolio/index/$1';
