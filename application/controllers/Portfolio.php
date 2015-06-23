@@ -16,11 +16,11 @@ class portfolio extends CI_Controller
         $this->template->set_asset('footer', '<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>');
         $this->template->set_asset('footer', '<script src="'.base_url().'public/assets/js/bootstrap.js"></script>');
     }
-	public function index($page = null)
+	public function index($id = null)
 	{
 
-        if($page) {
-            $this->page($page);
+        if($id) {
+            $this->page($id);
         } else {
             $this->page('about');
         }
