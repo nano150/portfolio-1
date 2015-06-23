@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `contents` (
 
 INSERT INTO `contents` (`id`, `title`, `content`) VALUES
 (1, 'about', '<p>a very minimal, personal portfolio site script coded with codeigniter. it uses a template library which very basic and open to develop, admin panel to change contents. i will improve it a little more, adding my github page, surely you can suggest or ask anything you want.</p>\r\n\r\n<p>a very minimal, personal portfolio site script coded with codeigniter. it uses a template library which very basic and open to develop, admin panel to change contents. i will improve it a little more, adding my github page, surely you can suggest or ask anything you want.</p>\r\n'),
-(2, 'project', '<p>a very minimal, personal portfolio site script coded with codeigniter. it uses a template library which very basic and open to develop, admin panel to change contents. i will improve it a little more, adding my github page, surely you can suggest or ask anything you want.</p>\r\n\r\n<p>&nbsp;</p>\r\n'),
+(2, 'projects', '<p>a very minimal, personal portfolio site script coded with codeigniter. it uses a template library which very basic and open to develop, admin panel to change contents. i will improve it a little more, adding my github page, surely you can suggest or ask anything you want.</p>\r\n\r\n<p>&nbsp;</p>\r\n'),
 (3, 'contact', '<p>email</p>\r\n\r\n<p>facebook</p>\r\n\r\n<p>linkedin</p>\r\n\r\n<p>bla bla</p>\r\n\r\n<p>...</p>\r\n');
 
 -- --------------------------------------------------------
