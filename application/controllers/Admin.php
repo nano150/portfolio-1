@@ -18,12 +18,16 @@
             $this->template->set_asset('footer', '<script src="'.base_url().'public/assets/ckeditor/ckeditor.js"></script>');
             $this->template->set_asset('footer', '<script src="'.base_url().'public/assets/ckeditor/adapters/jquery.js"></script>');
             $this->template->set_asset('footer', '<script>$("textarea").ckeditor();</script>');
+            
+            
+            $data['contents'] = $this->portfolio_model->contents();
+            $this->template->render('dashboard',$data); //publish a page named dashboard, look library/template for more..
+            
         }
 
         public function index()
         {
-            $data['contents'] = $this->portfolio_model->contents();
-            $this->template->render('dashboard',$data); //publish a page named dashboard, look library/template for more..
+            //no need
         }
 
         public function edit($id = null)
