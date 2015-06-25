@@ -13,10 +13,7 @@
 
 
 <style>
-    body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+
     .form-signin {
         max-width: 500px;
         padding: 15px;
